@@ -8,5 +8,5 @@ Esta es mi primera landing page💻<br><br>
 <p>Creada para la *Editorial InkerStellar* 🚀</p>
 <p>
 <b>Actualmente pueden verla 
-<a href="https://alejaes.github.io/MI-primera-Landing-page/" target="_blank" rel="noreferrer noopener">Aquí</a></b>, es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial. es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial.
+<a href="https://alejaes.github.io/MI-primera-Landing-page/" target="_blank">Aquí</a></b>, es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial. es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial.
 </p>
