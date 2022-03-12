@@ -184,8 +184,8 @@ body {
 	cursor: pointer;
 	overflow: hidden;
 }
-
-/*Info 2*/
+/* 
+/*Info 2
 .last-section {
 	display: flex;
 	flex-wrap: wrap;
@@ -195,7 +195,7 @@ body {
 
 .last-section .contenedor-textos-main {
 	width: 40%;
-}
+} */
 
 /*----CONTACTÁNOS-----*/
 /*Subtitle :)*/
