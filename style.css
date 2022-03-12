@@ -387,7 +387,7 @@ footer {
 			rgba(51, 8, 103, 0.692) 0%,
 			rgba(48, 208, 208, 0.699) 100%
 		),
-		url(/img/pluma.png);
+		url(img/pluma.png);
 	width: 100%;
 	height: 300px;
 	background-repeat: no-repeat;
