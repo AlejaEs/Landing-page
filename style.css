@@ -157,8 +157,7 @@ body {
 .card p {
 	font-size: 17px;
 	font-weight: 300;
-	margin-top: 10px;
-	margin-bottom: 15px;
+	margin: 10px 5px 15px 5px;
 }
 .card ul {
 	text-align: left;
@@ -183,18 +182,6 @@ body {
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 	overflow: hidden;
-}
-
-/*Info 2*/
-.last-section {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	padding-bottom: 40px;
-}
-
-.last-section .contenedor-textos-main {
-	width: 40%;
 }
 
 /*----CONTACTÁNOS-----*/
