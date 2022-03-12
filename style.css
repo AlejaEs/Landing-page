@@ -46,7 +46,7 @@ body {
 	margin-bottom: 20px;
 }
 
-.textos-hero a {
+.textos-hero .contacto {
 	display: inline-block;
 	text-decoration: none;
 	padding: 12px 15px;
@@ -60,6 +60,19 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 100%;
+}
+.header__social {
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+.header__social-link {
+	color: hsl(173, 64%, 95%);
+	padding: 0.9rem;
+	font-size: 1.5rem;
+	display: inline-flex;
+	margin-bottom: 3rem;
+	transition: 0.3s;
 }
 
 /*Estilos generales*/
