@@ -303,7 +303,7 @@ body {
 .contact__content form {
 	display: flex;
 	flex-direction: column;
-	margin: 3% 65% 0 2%;
+	margin: 3% 50% 0 2%;
 }
 .contact__form-div {
 	position: relative;
