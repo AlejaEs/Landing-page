@@ -5,4 +5,4 @@ Esta es mi primera landing page💻<br><br>
 
 <h3>Landing Page👩</h3> 
 <p>Creada para la *Editorial InkerStellar* 🚀</p>
-<b>Actualmente pueden verla [Aquí ](https://github.com/AlejaEs/git-cheat-sheet "Comandos de Git ")</b> es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial.
+<b><b>Actualmente pueden verla [Aquí](https://alejaes.github.io/MI-primera-Landing-page/ "Aquí")</b> es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial. es un proyecto de una página web sencilla donde se muestran los servicios que ofrece la editorial.
