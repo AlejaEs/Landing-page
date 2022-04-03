@@ -61,11 +61,13 @@ body {
 	left: 0;
 	width: 100%;
 }
+/*HEADER SOCIAL LINK*/
 .header__social {
 	display: flex;
 	justify-content: center;
 	list-style-type: none;
 }
+
 .header__social-link {
 	color: hsl(173, 64%, 95%);
 	padding: 0.9rem;
@@ -89,8 +91,8 @@ body {
 }
 
 .titulo {
-	font-weight: 300;
-	font-size: 35px;
+	font-family: "Merriweather", serif;
+	font-size: 30px;
 	text-align: center;
 	margin-bottom: 30px;
 }
@@ -121,6 +123,14 @@ body {
 	margin-bottom: 20px;
 }
 
+.price {
+	display: flex;
+	font-size: 1rem;
+	font-weight: 600;
+	padding-left: 0.5rem;
+	margin-bottom: 1rem;
+}
+
 .cta {
 	display: inline-block;
 	text-decoration: none;
@@ -133,6 +143,7 @@ body {
 /*Info*/
 
 .info {
+	font-family: "Raleway", sans-serif;
 	background: #00ced1;
 	color: #fff;
 }
@@ -146,7 +157,7 @@ body {
 	margin: 1px;
 }
 .card {
-	width: 30%;
+	width: 32%;
 	text-align: center;
 	height: 320px;
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
@@ -195,6 +206,113 @@ body {
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
 	cursor: pointer;
 	overflow: hidden;
+}
+
+/*seccion planes|PACKS SERVICIOS LITERARIOS*/
+.main-plans-container {
+	width: 100%;
+	min-height: 320px;
+	padding-bottom: 70px;
+	text-align: center;
+	background-color: #f2f2f2;
+}
+/*Estilos al título <h2>*/
+.main-plans-container h2 {
+	padding-top: 50px;
+	font-size: 2.4rem;
+	font-weight: bold;
+	line-height: 2.6rem;
+	color: #282623;
+}
+
+/*estilos al párrafo*/
+.main-plans-container p {
+	padding-top: 30px;
+	font-size: 1.2rem;
+	font-weight: 500;
+	line-height: 1.5rem;
+	color: #5e5c5c;
+}
+/*SLIDER*/
+.plans-container--slider {
+	display: flex;
+	justify-content: center;
+	height: 400px;
+}
+/*estilos de la tarjeta*/
+.plans-container--card {
+	background-color: #f2f2f2;
+	border: 1px solid #00ced1;
+	position: relative;
+	min-width: 100px;
+	max-width: 300px;
+	height: 350px;
+	margin: 50px 15px 0;
+	padding: 0 15px;
+	border-radius: 15px;
+	box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container--card .recommended {
+	font-size: 1rem;
+	position: absolute;
+	width: 120px;
+	height: 31px;
+	left: calc(50% - 60px);
+	top: -15px;
+	margin: 0;
+	padding: 6px;
+	background-color: #f7931a;
+	border-radius: 8px;
+	color: #fff;
+}
+.plan-card--title {
+	padding-top: 28px;
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 1.5rem;
+	color: black;
+}
+.plans-container--card .plan-card--price {
+	padding: 2px 0;
+	font-size: 2.6rem;
+	font-weight: bold;
+	line-height: 5.3rem;
+	color: black;
+}
+.plan-card {
+	max-width: 600px;
+}
+.plan-card--price span {
+	font-size: 1.2rem;
+	font-weight: 400;
+	vertical-align: 24px;
+	padding-right: 4px;
+}
+.descuento {
+	padding-top: 8px;
+	font-size: 1.1rem;
+	color: #fc0606f3;
+}
+.plans-container--card .plan-card--saving {
+	font-size: 1rem;
+	color: #757575;
+	padding-top: 0;
+}
+
+.swiper-pagination {
+	position: absolute;
+}
+.swiper-pagination-bullet {
+	height: 6px;
+	width: 30px;
+	border-radius: 30px;
+	background: #00ced1;
+}
+.swiper-button-next,
+.swiper-button-prev {
+	opacity: 0.7;
+	transition: all 0.3s ease;
 }
 
 /*----CONTACTÁNOS-----*/
