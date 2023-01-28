@@ -157,9 +157,9 @@ body {
 	margin: 1px;
 }
 .card {
-	width: 32%;
+	width: 30%;
 	text-align: center;
-	height: 320px;
+	height: 380px;
 	box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.5);
 	transform: scale(1);
 	transition: transform 0.6s;
@@ -181,7 +181,7 @@ body {
 .card p {
 	font-size: 17px;
 	font-weight: 300;
-	margin: 10px 5px 15px 5px;
+	margin: 10px 8px 15px 8px;
 }
 .card ul {
 	text-align: left;
@@ -209,7 +209,7 @@ body {
 }
 
 /*seccion planes|PACKS SERVICIOS LITERARIOS*/
-.main-plans-container {
+/*.main-plans-container {
 	width: 100%;
 	min-height: 320px;
 	padding-bottom: 70px;
@@ -217,7 +217,7 @@ body {
 	background-color: #f2f2f2;
 }
 /*Estilos al título <h2>*/
-.main-plans-container h2 {
+/*.main-plans-container h2 {
 	padding-top: 50px;
 	font-size: 2.4rem;
 	font-weight: bold;
@@ -226,94 +226,103 @@ body {
 }
 
 /*estilos al párrafo*/
-.main-plans-container p {
+/*.main-plans-container p {
 	padding-top: 30px;
 	font-size: 1.2rem;
 	font-weight: 500;
 	line-height: 1.5rem;
 	color: #5e5c5c;
-}
-/*SLIDER*/
-.plans-container--slider {
+}*/
+/* ?================CARDS===============*/
+/*.plans-container--slider {
 	display: flex;
 	justify-content: center;
-	height: 400px;
+	/*gap: 50px; Aun no está soportado por todos los navegadores :( */
+/*height: 500px;
+	/*overflow-x: scroll;
+	overscroll-behavior-x: contain;
+	scroll-snap-type: x proximity;
+}*/
+/*ul {
+	list-style: none;
 }
 /*estilos de la tarjeta*/
-.plans-container--card {
+/*.plans-container--card {
+	position: relative;
+	scroll-snap-align: center;
 	background-color: #f2f2f2;
 	border: 1px solid #00ced1;
-	position: relative;
-	min-width: 100px;
-	max-width: 300px;
-	height: 350px;
-	margin: 50px 15px 0;
+	width: 70%;
+	min-width: 200px;
+	max-width: 320px;
+	height: 430px;
+	margin: 40px 20px 0;
 	padding: 0 15px;
 	border-radius: 15px;
-	box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+	box-shadow: 0 12px 24px hsla(210, 61%, 16%, 0.1);
+	transition: 0.4s;
 }
-
-.plans-container--card .recommended {
-	font-size: 1rem;
-	position: absolute;
-	width: 120px;
-	height: 31px;
-	left: calc(50% - 60px);
-	top: -15px;
-	margin: 0;
-	padding: 6px;
-	background-color: #f7931a;
-	border-radius: 8px;
-	color: #fff;
+.plans__content:hover {
+	box-shadow: 0 16px 24px hsla(210, 61%, 16%, 0.15);
 }
-.plan-card--title {
-	padding-top: 28px;
+.plans__header-img {
+	width: 30px;
+	height: 30px;
+}
+.plans__header-circle {
+	width: 40px;
+	height: 40px;
+	background-color: hsl(210, 14%, 96%);
+	border-radius: 50%;
+	margin-top: 0.2rem;
+	margin-bottom: 1rem;
+	place-items: center;
+}
+.plans__header-title {
 	font-size: 1.4rem;
-	font-weight: bold;
-	line-height: 1.5rem;
 	color: black;
+	margin-bottom: 0.5rem;
+	line-height: 1.5rem;
 }
-.plans-container--card .plan-card--price {
-	padding: 2px 0;
-	font-size: 2.6rem;
+.plans-container--card .plans__pricing {
+	padding: 0;
+	font-size: 1.5rem;
 	font-weight: bold;
 	line-height: 5.3rem;
 	color: black;
 }
-.plan-card {
-	max-width: 600px;
+.plans__pricing {
+	padding-top: 0.5rem;
+	text-align: center;
 }
-.plan-card--price span {
-	font-size: 1.2rem;
-	font-weight: 400;
-	vertical-align: 24px;
-	padding-right: 4px;
-}
-.descuento {
-	padding-top: 8px;
-	font-size: 1.1rem;
-	color: #fc0606f3;
-}
-.plans-container--card .plan-card--saving {
+.plans__pricing-symbol {
 	font-size: 1rem;
-	color: #757575;
-	padding-top: 0;
+	font-weight: 300;
 }
 
-.swiper-pagination {
-	position: absolute;
+.plans__list {
+	row-gap: 0.5rem;
+	margin-bottom: 2rem;
 }
-.swiper-pagination-bullet {
-	height: 6px;
-	width: 30px;
-	border-radius: 30px;
-	background: #00ced1;
+.plans__list-item {
+	display: flex;
+	align-items: center;
 }
-.swiper-button-next,
-.swiper-button-prev {
-	opacity: 0.7;
-	transition: all 0.3s ease;
+
+.plans__button {
+	padding: 1.5rem;
+	margin-top: 1rem;
+	border: none;
+	border-radius: 0.5rem;
+	background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+	cursor: pointer;
+	padding: 12px 15px;
 }
+.plans__button a {
+	font-size: 1rem;
+	color: #fff;
+	text-decoration: none;
+}*/
 
 /*----CONTACTÁNOS-----*/
 /*Subtitle :)*/
@@ -560,7 +569,8 @@ footer {
 	color: hsl(240, 47%, 96%);
 	font-size: 0.8rem;
 }
-/*MEDIAS QUERIES*/
+
+/*---------------------MEDIAS QUERIES--------------------*/
 @media screen and (max-width: 800px) {
 	.textos-hero h1 {
 		text-align: center;
@@ -601,6 +611,16 @@ footer {
 	/*Portafolio*/
 	.portafolio-cont > img {
 		width: 48%;
+	}
+
+	/*pack servicios*/
+	.plans-container--card {
+		width: 100%;
+
+		margin-bottom: 20px;
+	}
+	.plans-container--slider {
+		justify-content: center;
 	}
 
 	/*last*/
@@ -654,5 +674,16 @@ footer {
 	.contact__form button {
 		width: 30%;
 		margin-left: 50%;
+	}
+
+	/*pack servicios*/
+	.plans-container--card {
+		display: flex;
+		flex-wrap: wrap;
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.plans-container--slider {
+		justify-content: center;
 	}
 }
